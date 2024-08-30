@@ -1,0 +1,74 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    padding:0;
+}
+#navbar{
+    position:fixed;
+    top:0;
+    width:100;
+    background-color: grey(250,182,10);
+    color:whitesmoke;
+    transition: background-color 0.3s, padding 0.3s;
+    z-index:1000;
+    box-shadow:0 2px 5px greenyellow;
+
+}
+#navbar.scrolled{
+    background-color: rgb(73, 193, 232);
+    padding:10px 0;
+
+}
+#navbar.container{
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+    padding:15px 20px;
+    align-items:centre;
+    max-width:1200px;
+}
+#navbar.logo{
+    font: size 1.5em;
+    font-weight:bold;
+}
+#navbar ul{
+    list-style-type:name;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+#navbar ul li{
+    margin:0 15px;
+
+}
+#navbar ul li a:hover{
+    background-color: gray;
+    color: whitesmoke;
+    transform:scale(1.1);
+    border-radius: 4px;
+}
+section{
+    padding:50px 20px;
+    min-height: 100vh;
+}
+#HOME{
+    background-color: #00FFFF;
+}
+#SERVICES{
+
+    background-color: #ADD8E6;
+}
+#ABOUT{
+    background-color: #808080;
+}
+#CONTACT{
+    background-color: #FFC0CB;
+}
+
+
+
+
+
+
+
+
