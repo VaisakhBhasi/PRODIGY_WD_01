@@ -10,5 +10,7 @@ Responsive Layout: Ensures optimal viewing across different devices and screen s
 Technologies Used:
 
 HTML for structuring the menu.
+
 CSS for styling the menu, including hover and scroll effects.
+
 JavaScript for adding interactivity such as detecting scroll events and applying style changes.
